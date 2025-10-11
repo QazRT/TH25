@@ -44,8 +44,10 @@ QazRT
 2.  Сколько встроенных в пакет nycflights13 датафреймов? (Ответ - 5)
 
     ``` r
-    data(package = "nycflights13")
+    nrow(data(package = "nycflights13")$results)
     ```
+
+        [1] 5
 
 3.  Сколько строк в каждом датафрейме?
 
