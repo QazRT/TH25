@@ -74,13 +74,10 @@ QazRT
 4.  Сколько уникальных рас персонажей (species) представлено в данных?
 
     ``` r
-    starwars %>% distinct(species) %>% count
+    starwars %>% pull(species) %>% unique() %>% length()
     ```
 
-        # A tibble: 1 × 1
-              n
-          <int>
-        1    38
+        [1] 38
 
 5.  Найти самого высокого персонажа
 
