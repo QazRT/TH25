@@ -1,5 +1,5 @@
 # Введение в R
-QazRT
+zargarovsasha@yandex.ru
 
 ## Цель работы
 
